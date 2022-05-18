@@ -13,5 +13,5 @@ func main() {
 }
 
 func index(w http.ResponseWriter, r *http.Request) {
-	io.WriteString(w, "Hello world! ")
+	io.WriteString(w, "<h1>Hello Fribourg!</h1>")
 }
